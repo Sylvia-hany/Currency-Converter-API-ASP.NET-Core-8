@@ -1,6 +1,7 @@
 ﻿
 using CurrencyConvertor.Models;
 using CurrencyConvertor.Repository;
+using CurrencyConvertor.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace CurrencyConvertor
@@ -10,6 +11,9 @@ namespace CurrencyConvertor
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddHttpClient();
+            builder.Services.AddScoped<IConversionRepository, ConversionRepository>();
+            builder.Services.AddScoped<ICurrencyService, CurrencyService>();
 
             // Add services to the container.
             // Register generic Repository
