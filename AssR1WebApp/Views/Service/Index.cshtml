@@ -1,0 +1,13 @@
+﻿@inject IService  Service
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h2>Servie Id FRom Controller</h2>
+<h3>@ViewBag.Id</h3>
+
+<hr />
+<h2>Servie Id FRom View</h2>
+<h3>@Service.Id</h3>

@@ -1,0 +1,91 @@
+﻿@model EmployeeWithDeptListViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<form method="post"  action="/Employee/SaveEdit/@Model.Id">
+    @Html.AntiForgeryToken()
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @* <input type="hidden" name="Id" value="@Model.Id" />     *@
+    <div>
+        <label>Name</label>
+        <input type="text" class="form form-control" name="Name" id="Name" value="@Model.Name" />
+    </div>
+    <div>
+        <!--
+        <label>Address</label>
+        <input type="text" class="form form-control" name="Address" id="Address" value="@Model.Address" />
+        -->
+        @* @Html.LabelFor(e=>e.Address) *@
+        @* @Html.TextBoxFor(e => e.Address, new { style = "color:red", @class="form form-control"}) *@
+        @* @Html.EditorFor(e=>e.Address) *@
+         <label asp-for="Address"></label>
+        <input  class="form form-control" asp-for="Address" />
+ 
+
+    </div>
+    <div>
+        <label>Salary</label>
+        <input type="number" class="form form-control" name="Salary" id="Salary" value="@Model.Salary" />
+    </div>
+    <div>
+        <label>Profile Image</label>
+        <input type="text" class="form form-control" name="ImageURl" id="ImageURl" value="@Model.ImageURl" />
+    </div>
+    <div>
+        <label>Department</label>
+        @* <input type="number" class="form form-control" name="DepartmentId" id="DepartmentId" value="@Model.DepartmentId" /> *@
+        <select class="form form-control" name="DepartmentId" id="DepartmentId">
+            @foreach (var deptItem in Model.DepartmentList)
+            {
+                if (Model.DepartmentId == deptItem.Id)
+                {
+                    <option value="@deptItem.Id" selected>@deptItem.Name</option>
+                }
+                else
+                {
+                    <option value="@deptItem.Id" >@deptItem.Name</option>
+
+                }
+            }
+        </select>
+    </div>
+
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>
+
+<a href="/Employee/index">back To List</a>
+<br />
+@Html.ActionLink("Back To List","Index","Employee",null,new{ @class="btn btn-success"})
+<br/>
+<a asp-action="Index" asp-controller="Employee" >Back to List</a>
+
+<hr />
+<a href="/Employee/Details/@Model.Id?name=@Model.Name&age=12">DEtails</a>
+<br />
+@Html.ActionLink("Show Details","Details","Employee",new{id=Model.Id,name=Model.Name,age=12,adddres="alex"})
+<br />
+
+
+
+
+<a asp-action="Details" asp-controller="Employee" asp-route-id="@Model.Id" asp-route-name="@Model.Name">
+    Details
+</a>
+

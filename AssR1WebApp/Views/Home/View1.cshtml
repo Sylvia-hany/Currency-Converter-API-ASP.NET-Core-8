@@ -1,0 +1,38 @@
+﻿<h1>Hello FRom My First View</h1>
+<style>
+h1{
+    color:red;
+    background-color:yellow;
+}
+</style>
+<script>
+console.log("hiiiiiiiiiiiiiiiii")
+</script>
+<!--Block of Code-->
+@{
+    int x=10;
+    int y = x+10;
+}
+<!--Inline Code-->
+@(x+y)
+<h2>@x</h2>
+<!--Conition statment-->
+
+@if (x > y)
+{
+    <h3>X Greater Than Y</h3>
+}
+else
+{
+    <h3>Y = @y Greater Than X =@x</h3>
+
+}
+
+<!--Iteration-->
+<ul>
+    @for(int i = 0; i < 9; i++)
+    {
+        <li>@i</li>
+    }
+</ul>
+
