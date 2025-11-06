@@ -1,0 +1,32 @@
+﻿@model List<Student>
+
+
+<!--ynamic Model "Strong type View"-->
+<!-- List<student>-->
+@{
+    ViewData["Title"] = "All";
+}
+<h1>All</h1>
+@* <a asp-route="Route1"></a>
+<a asp-action="Methd1" asp-controller="Route"></a> *@
+<table class="table table-hover table-border">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Image</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.ImageURL</td>
+            <td>
+                <img src="/images/@item.ImageURL" style="width:100px" />
+
+            </td>
+        </tr>
+    }
+</table>
+

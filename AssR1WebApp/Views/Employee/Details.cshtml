@@ -1,0 +1,11 @@
+﻿@model Employee
+
+@{
+    ViewData["Title"] = "Details";//set View ?????
+}
+<partial name="_EmpCardPartial" />
+<a href="/Employee/Edit/@Model.Id">Edit</a>
+<!--
+    1) Magic String
+    2) Type Casting (Unboxing)
+-->

@@ -1,0 +1,22 @@
+﻿
+@model EmployeeNameWithTempMsgClrBranchViewModel
+
+@{
+    ViewData["Title"] = "DetailsVM";
+}
+
+<h1>DetailsVM</h1>
+
+<h1 style="color:@Model.Color">@Model.EmpId</h1>
+
+@Model.EmpName
+@Model.Message
+@Model.Temp
+
+<select class="form form-control">
+    @foreach (var item in Model.Branches)
+    {
+        <option>@item</option>
+    }
+
+</sel>
