@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Philo Tech\\source\\repos\\CurrencyConvertor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE60C096-0F34-424D-8ED9-EA47B32CFA64}|CurrencyConvertor\\CurrencyConvertor.csproj|c:\\users\\philo tech\\source\\repos\\currencyconvertor\\currencyconvertor\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE60C096-0F34-424D-8ED9-EA47B32CFA64}|CurrencyConvertor\\CurrencyConvertor.csproj|solutionrelative:currencyconvertor\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE60C096-0F34-424D-8ED9-EA47B32CFA64}|CurrencyConvertor\\CurrencyConvertor.csproj|c:\\users\\philo tech\\source\\repos\\currencyconvertor\\currencyconvertor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE60C096-0F34-424D-8ED9-EA47B32CFA64}|CurrencyConvertor\\CurrencyConvertor.csproj|solutionrelative:currencyconvertor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE60C096-0F34-424D-8ED9-EA47B32CFA64}|CurrencyConvertor\\CurrencyConvertor.csproj|c:\\users\\philo tech\\source\\repos\\currencyconvertor\\currencyconvertor\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE60C096-0F34-424D-8ED9-EA47B32CFA64}|CurrencyConvertor\\CurrencyConvertor.csproj|solutionrelative:currencyconvertor\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE60C096-0F34-424D-8ED9-EA47B32CFA64}|CurrencyConvertor\\CurrencyConvertor.csproj|c:\\users\\philo tech\\source\\repos\\currencyconvertor\\currencyconvertor\\services\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE60C096-0F34-424D-8ED9-EA47B32CFA64}|CurrencyConvertor\\CurrencyConvertor.csproj|solutionrelative:currencyconvertor\\services\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CurrencyController.cs",
+              "DocumentMoniker": "C:\\Users\\Philo Tech\\source\\repos\\CurrencyConvertor\\CurrencyConvertor\\Controllers\\CurrencyController.cs",
+              "RelativeDocumentMoniker": "CurrencyConvertor\\Controllers\\CurrencyController.cs",
+              "ToolTip": "C:\\Users\\Philo Tech\\source\\repos\\CurrencyConvertor\\CurrencyConvertor\\Controllers\\CurrencyController.cs*",
+              "RelativeToolTip": "CurrencyConvertor\\Controllers\\CurrencyController.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T16:43:43.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICurrencyService.cs",
+              "DocumentMoniker": "C:\\Users\\Philo Tech\\source\\repos\\CurrencyConvertor\\CurrencyConvertor\\Services\\ICurrencyService.cs",
+              "RelativeDocumentMoniker": "CurrencyConvertor\\Services\\ICurrencyService.cs",
+              "ToolTip": "C:\\Users\\Philo Tech\\source\\repos\\CurrencyConvertor\\CurrencyConvertor\\Services\\ICurrencyService.cs*",
+              "RelativeToolTip": "CurrencyConvertor\\Services\\ICurrencyService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:55:47.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurrencyService.cs",
+              "DocumentMoniker": "C:\\Users\\Philo Tech\\source\\repos\\CurrencyConvertor\\CurrencyConvertor\\Services\\CurrencyService.cs",
+              "RelativeDocumentMoniker": "CurrencyConvertor\\Services\\CurrencyService.cs",
+              "ToolTip": "C:\\Users\\Philo Tech\\source\\repos\\CurrencyConvertor\\CurrencyConvertor\\Services\\CurrencyService.cs*",
+              "RelativeToolTip": "CurrencyConvertor\\Services\\CurrencyService.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:55:51.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Philo Tech\\source\\repos\\CurrencyConvertor\\CurrencyConvertor\\Program.cs",
+              "RelativeDocumentMoniker": "CurrencyConvertor\\Program.cs",
+              "ToolTip": "C:\\Users\\Philo Tech\\source\\repos\\CurrencyConvertor\\CurrencyConvertor\\Program.cs*",
+              "RelativeToolTip": "CurrencyConvertor\\Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:07:42.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
