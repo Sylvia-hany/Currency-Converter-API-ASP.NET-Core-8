@@ -1,4 +1,5 @@
 ﻿
+using CurrencyConvertor.Mapping;
 using CurrencyConvertor.Models;
 using CurrencyConvertor.Repository;
 using CurrencyConvertor.Services;
@@ -12,8 +13,13 @@ namespace CurrencyConvertor
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddHttpClient();
-            builder.Services.AddScoped<IConversionRepository, ConversionRepository>();
             builder.Services.AddScoped<ICurrencyService, CurrencyService>();
+            builder.Services.AddScoped<IExchangeRateService, ExchangeRateService>();   
+            builder.Services.AddScoped<IConversionHistoryService, ConversionHistoryService>();
+
+            /// 
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
+
 
             // Add services to the container.
             // Register generic Repository

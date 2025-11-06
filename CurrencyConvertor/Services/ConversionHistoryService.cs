@@ -12,9 +12,11 @@ namespace CurrencyConvertor.Services
             _conversionRepo = conversionRepo;
         }
 
-        public async Task<IEnumerable<Conversion>> GetLastConversionsAsync(int limit = 10)
+        public async Task<IEnumerable<Conversion>> GetLastConversionsAsync(int count = 10)
         {
-            return await _conversionRepo.GetLastConversionsAsync(limit);
+            var conversions = await _conversionRepo.GetLastConversionsAsync(count);
+            return conversions;
         }
+      
     }
 }

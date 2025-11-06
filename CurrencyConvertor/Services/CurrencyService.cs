@@ -64,11 +64,7 @@ namespace CurrencyConvertor.Services
 
             return conversion;
         }
-        public async Task<IEnumerable<Conversion>> GetLastConversionsAsync(int count = 10)
-        {
-            var conversions = await _conversionRepo.GetLastConversionsAsync(count);
-            return conversions;
-        }
+      
 
     }
 }
